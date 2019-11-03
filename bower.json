@@ -1,42 +1,37 @@
 {
-    "name": "lightgallery",
-    "version": "1.6.12",
-    "description": "A lightweight, customizable, modular, responsive, lightbox gallery plugin for jQuery.",
-    "main": [
-        "dist/js/lightgallery.min.js",
-        "dist/css/lightgallery.css",
-        "dist/fonts/lg.eot",
-        "dist/fonts/lg.svg",
-        "dist/fonts/lg.ttf",
-        "dist/fonts/lg.woff",
-        "dist/img/loading.gif",
-        "dist/img/video-play.png",
-        "dist/img/vimeo-play.png",
-        "dist/img/youtube-play.png"
-    ],
-    "keywords": [
-        "gallery",
-        "lightbox",
-        "image",
-        "youtube",
-        "vimeo"
-    ],
-    "authors": [
-        "Sachin N <sachi77n@gmail.com>"
-    ],
-    "homepage": "http://sachinchoolur.github.io/lightGallery/",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/sachinchoolur/lightGallery.git"
-    },
-    "license": "GPLv3",
-    "ignore": [
-        "README.md"
-    ],
-    "dependencies": {
-        "jquery": ">=1.7.0"
-    },
-    "devDependencies": {
-        "qunit": "~1.12.0"
-    }
+  "name": "photoswipe",
+  "homepage": "https://photoswipe.com",
+  "authors": [
+    "Dmitry Semenov <diiiimaaaa@gmail.com> (http://dimsemenov.com)"
+  ],
+  "description": "Touch-friendly image gallery for mobile and desktop. Without dependencies.",
+  "main": [
+    "dist/photoswipe.js",
+    "dist/photoswipe.css",
+    "dist/photoswipe-ui-default.js",
+    "dist/default-skin/default-skin.css",
+    "dist/default-skin/default-skin.png",
+    "dist/default-skin/default-skin.svg",
+    "dist/default-skin/preloader.gif"
+  ],
+  "keywords": [
+    "image",
+    "gallery",
+    "lightbox",
+    "swipe",
+    "touch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dimsemenov/PhotoSwipe.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "website"
+  ]
 }
