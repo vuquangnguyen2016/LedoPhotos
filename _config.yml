@@ -45,3 +45,4 @@ mini_magick:
         source: images/headers
         destination: images/headers/thumbnails
         resize: "400x250"
+theme: jekyll-theme-cayman
